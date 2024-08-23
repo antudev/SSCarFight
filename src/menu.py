@@ -139,7 +139,7 @@ class Menu:
         self.game_started = True
         self.paused = False
         self.options = self.pause_menu_options
-        print("Game Started!")  # Puedes reemplazar esto con la lógica para iniciar el juego
+        print("Game Started!")  
 
     def show_countdown(self, text):
         screen = pygame.display.get_surface()
@@ -155,4 +155,4 @@ class Menu:
         self.paused = False
         self.options = self.main_menu_options
         self.selected_option = 0
-        print("Game Restarted!")  # reemplazar esto con la lógica para reiniciar el juego
+        print("Game Restarted!")  

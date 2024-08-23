@@ -79,7 +79,7 @@ class Boss:
             self.direction_y = -1  # Cambiar dirección hacia arriba
         
         
-        self.move(0, self.direction_y * 4, game_started)  # Mover solo en la dirección Y, el numero entero "4" se encarga de la velocidad de boss
+        self.move(0, self.direction_y * 4, game_started)  # Mover solo en la dirección Y, el numero entero "4" se encarga de la velocidad de el defe
                
     def shoot(self, player):
         # Disparar una bala solo si el jugador está directamente frente al jefe
